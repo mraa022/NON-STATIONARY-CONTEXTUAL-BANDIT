@@ -48,10 +48,7 @@ alpha = 0.1
 
 
 def train(steps,epsilon=0.1):
-    '''
-    steps: number of episodes the bandit algorithm runs
-    seed: the value the optimistic initial value algorithm sets the means to by default
-    '''
+   
     N = []
     rewards = []
     total = 0
